@@ -1,0 +1,337 @@
+ASS 4A
+SOURCE CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment 4A</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" data-theme="b">
+<h1>Assignment 4</h1>
+</div>
+<div data-role="navbar" data-grid="c">
+<ul>
+<li> <a href="index.html" class="ui-btn-active"> Home</a></li>
+<li> <a href="aboutus.html" class="ui-btn-active"> About us</a></li>
+<li> <a href="products.html" class="ui-btn-active"> Products</a></li>
+<li> <a href="login_register.html" class="ui-btn-active"> Login/Register</a></li>
+</ul>
+</div>
+<center>
+<h3>Products</h3>
+</center>
+<div class="Content">
+<center>
+<div class="rows">
+<div>
+<img src="img3.jpeg" alt="" height="250px" width="250px">
+<img src="img4.jpeg" alt="" height="250px" width="250px">
+<img src="img5.jpeg" alt="" height="250px" width="250px">
+<img src="img6.jpeg" alt="" height="250px" width="250px">
+
+</div>
+
+</div>
+<br>
+<div class="rows">
+<div>
+<img src="img3.jpeg" alt="" height="250px" width="250px">
+<img src="img4.jpeg" alt="" height="250px" width="250px">
+<img src="img5.jpeg" alt="" height="250px" width="250px">
+<img src="img6.jpeg" alt="" height="250px" width="250px">
+</div>
+</div>
+</center>
+</div>
+<div data-role="footer" data-theme="b">
+<center>
+<div class="quicklinks">
+<h3>Links</h3>
+<a href="index.html"> Home</a> <br> <br>
+<a href="aboutus.html"> About us</a> <br> <br>
+<a href="products.html"> Products</a> <br> <br>
+<a href="login_register.html"> Login/Register</a> <br> <br>
+</div>
+<p>&copy;Copyright 2023 | All Rights Reserved. </p>
+</center>
+</div>
+</div>
+</body>
+</html>
+
+REGISTER PAGE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login-Assignment 4A</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+<div data-role="header" data-theme="b"></div>
+<h1>Assignment 4</h1>
+<div data-role="navbar" data-grid="c">
+<ul>
+<li> <a href="index.html"> Home</a></li>
+<li> <a href="aboutus.html"> About us</a></li>
+<li> <a href="products.html"> Products</a></li>
+<li> <a href="login_register.html" class="ui-btn-active"> Login/Register</a></li>
+</ul>
+</div>
+<div class="content">
+<div>
+<center>
+<h2> Register Here </h2>
+</center>
+</div>
+<div data-role="content">
+<label> Full Name: </label>
+<input type="text"> <br>
+<label> Address: </label>
+<textarea cols="25" rows="7"></textarea>
+<label> Pincode </label>
+<input type="text"> <br>
+<label> DOB: </label>
+<input type="date"> <br>
+<label> Email-Id: </label>
+<input type="email"> <br>
+<label> Password: </label>
+<input type="password"> <br>
+<label> Confirm Password: </label>
+<input type="password"> <br>
+<input type="submit" value="Register"> <br>
+<center> <a href="login.html"> Already Registered? Login here.</a></center>
+</div>
+</div>
+<div data-role="footer" data-theme="b">
+
+<center>
+<div class="quicklinks">
+<h3>Links</h3>
+<a href="index.html"> Home</a> <br> <br>
+<a href="aboutus.html"> About us</a> <br> <br>
+<a href="products.html"> Products</a> <br> <br>
+<a href="login_register.html"> Login/Register</a> <br> <br>
+</div>
+<p>&copy;Copyright 2023 | All Rights Reserved. </p>
+</center>
+</div>
+</div>
+</body>
+</html>
+
+LOGIN PAGE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login-Assignment 4A</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.page-header {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+.page-content {
+padding: 20px;
+text-align: center;
+
+}
+.quick-links {
+text-align: center;
+margin-top: 30px;
+}
+.quick-links h3 {
+font-size: 20px;
+}
+.quick-links a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+margin: 5px;
+}
+.page-footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+font-size: 12px;
+}
+.login-form {
+max-width: 400px;
+margin: 0 auto;
+}
+.login-form label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.login-form input[type="email"],
+.login-form input[type="password"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.login-form input[type="submit"] {
+
+width: 100%;
+padding: 10px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+.login-form .register-link {
+margin-top: 10px;
+font-size: 14px;
+color: #333;
+}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="page-header">
+<h1>Assignment 4</h1>
+</div>
+<div data-role="navbar" data-grid="c">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutus.html">About us</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="login_register.html" class="ui-btn-active">Login/Register</a></li>
+</ul>
+</div>
+<div class="page-content">
+<div class="login-form">
+<h2>Login</h2>
+<form>
+<label>Email-Id:</label>
+<input type="email" required>
+<label>Password:</label>
+<input type="password" required>
+<input type="submit" value="Login">
+</form>
+<p class="register-link">New User? <a href="login_register.html">Register Here</a></p>
+</div>
+
+</div>
+<div class="page-footer">
+<div class="quick-links">
+<h3>Links</h3>
+<a href="index.html">Home</a>
+<a href="aboutus.html">About us</a>
+<a href="products.html">Products</a>
+<a href="login_register.html">Login/Register</a>
+</div>
+<p>&copy; 2023 | All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
+
+</html>
+ABOUT US
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.page-header {
+background-color: #333;
+color: #fff;
+padding:
+10px;
+text-align: center;
+}
+.page-content
+{
+padding:
+20px;
+text-align: center;
+}
+
+.quick-links {
+text-align: center;
+margin-top: 30px;
+}
+.quick-links h3 {
+font-size: 20px;
+}
+.quick-links a {
+text-decoration: none;
+color: #333;
+font-weight:
+bold;
+margin: 5px;
+}
+.page-footer {
+background-color: #333;
+color: #fff;
+padding:
+10px;
+text-align: center;
+font-size: 12px;
+}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="page-header">
+<h1>ABOUT US</h1>
+</div>
+<div class="page-content"> <p><strong>A simple solution to help relieve your stress is to have
+flowers on your nightstand to see when you
+first wake up, on your desk to provide a breath of fresh air while you work, or on your kitchen
+counter or coffee table to help you unwind after a hectic day.</strong></p>
+</div>
+<div class="page-footer">
+<div class="quick-links">
+<h3>Links</h3>
+<a href="index.html">Home</a>
+<a href="aboutus.html">About us</a>
+<a href="products.html">Products</a>
+<a href="login_register.html">Login/Register</a>
+</div>
+<p>&copy; 2023 | All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
+
+
