@@ -1,0 +1,23 @@
+1.install docker desktop
+2.node.js optional
+3.visual studio code install extension name docker   which is from microsoft
+4.import one folder file>open folder>choose any folder(Rename the folder with lowercase only)
+5. create Docker file (Dockerfile)  no extension
+6.create one js file.
+  console.log("Name:Nikita");
+  ....
+  ...
+  ... 
+  save file.
+  
+7. Now in docker file write
+   FROM node:alpine
+   COPY . /foldername
+   CMD node /foldername/.js filename
+   save file.
+
+8. Now go to terminal
+  1.docker --version
+  2.node jsfilename.js  (if node.js is installed)
+  3.docker built -t foldername .
+  4.docker images

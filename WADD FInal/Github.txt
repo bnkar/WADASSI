@@ -1,0 +1,29 @@
+Github
+
+git --version
+create text file
+git init == command is used to create a new Git repository in a directory.
+
+git status == command is used to display the current state of the Git repository. 
+              It shows information about the modified, staged, and untracked files in your working directory,
+
+git add . == command is used to stage all changes in the current directory and its subdirectories 
+             This command adds any modified, newly created, or deleted files to the staging area
+
+git remote add origin https://github(link) == command establishes a connection between your local repository 
+                                 and the remote repository, allowing you to push and pull changes between them. 
+
+git config --global user.email " " == command is used to set the email address associated with your Git commits. 
+
+git config --global user.name " " == 
+
+git commit -m "changes mode" == command is used to create a new commit in Git with a commit message. 
+                                It allows you to permanently save the changes you have made to your repository.
+                                The -m flag is used to provide a commit message enclosed in double quotes
+
+git push -u origin master ==  command is used to push the commits from your local branch (master) to the remote 
+                              repository (origin). The -u option is used to set up tracking between the local 
+                              and remote branches.
+
+git pull origin == command is used to fetch and merge the latest changes from the remote repository (origin) into your current branch
+git status

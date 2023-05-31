@@ -1,0 +1,16 @@
+ 1.open vs code
+ 2.open folder create folder
+ 3.mkdir part-a
+ 4.cd part-a
+ 5.git --version
+ 6.create file file.txt
+ 7.git init
+ 8.git add file.txt or git add .
+ 9.git status
+ 10.copy link git remote add origin "url"
+ 11. git commit 
+ 12. git status
+ 13.git push -u origin master
+ 14.it will push the code into repository
+ 
+ 
